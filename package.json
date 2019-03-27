@@ -1,0 +1,25 @@
+{
+  "name": "iot-humidity-sensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guipzaia/iot-sensor-umidade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guipzaia/iot-sensor-umidade/issues"
+  },
+  "homepage": "https://github.com/guipzaia/iot-sensor-umidade#readme",
+  "dependencies": {
+    "johnny-five": "^1.0.0",
+    "mqtt": "^2.18.8",
+    "serialport": "^7.1.4"
+  }
+}
